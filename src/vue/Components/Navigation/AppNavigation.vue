@@ -31,7 +31,7 @@
         </template>
 
         <nc-app-navigation-settings slot="footer" :title="t('More')">
-            <app-navigation-item :name="t('Settings')" :to="{ name: 'Settings'}">
+            <app-navigation-item :name="t('Passwords settings')" :to="{ name: 'Settings'}">
                 <cog-icon :size=20 slot="icon" />
             </app-navigation-item>
             <app-navigation-item :name="t('Backup and Restore')" :to="{ name: 'Backup'}">
